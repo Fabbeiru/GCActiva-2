@@ -1,0 +1,54 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	background-image: url("../../imagenes/background-mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	font-family: 'Roboto', sans-serif;
+	/* Margin bottom by footer height */
+	margin-bottom: 170px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Forum', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #FF0000;
+}
+
+/* Responsive */
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+
+	.container {
+		max-width: 540px;
+	}
+
+}
+
+@media screen and (min-width: 767px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
